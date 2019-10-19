@@ -1,0 +1,433 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    height: 80px;
+    background: #fff !important;
+}
+.navbar-brand{}
+.navbar-nav{
+    margin-right: 80px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-link{
+    color: #666666 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-link:hover{}
+.success{
+    background: #bcda5c;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+
+/************ banner ************/
+.banner{
+    position: relative;
+    background: url(../images/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.banner .height{
+    height: 90vh;
+}
+.banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #00000045;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.banner-content{padding-top: 30%;}
+.banner-content h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-content h5{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.banner-content .btn-success{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 22px 32px;
+    border-radius: 5px;
+    background: #99c50a;
+    border: none;
+    transition: all .4s ease;
+}
+.banner-content .btn-success:hover{
+    background: #82a709;
+}
+
+
+/********** about ************/
+.about{
+    padding: 80px 0;
+}
+.about img{}
+.about h2{
+    color: #515151;
+    font-size: 32px;
+    margin: 50px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 24%;
+    line-height: 1.4;
+}
+.about p{
+    font-size: 18px;
+    color: #515151;
+    padding: 0 10%;
+    line-height: 1.7;
+}
+.about p:last-child{
+    margin-top: 30px;
+}
+
+
+/********** service **********/
+.service{}
+.nav-pills{
+    background: transparent;
+}
+.nav-pills .nav-link{
+    font-size: 30px;
+    color: #656565 !important;
+    text-transform: capitalize;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    padding: 30px 0;
+}
+.nav-pills .nav-link.active{
+    background: transparent;
+    color: #656565;
+    border-bottom: 1px solid #add136 !important;
+}
+.nav-pills .number{
+    background: #5f5f5f;
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.nav-pills .nav-link.active .number{
+    background: #add136;
+}
+.tab-content{
+    padding: 50px 0;
+}
+.tab-content img{
+    float: right;
+    padding-bottom: 362px;
+}
+.tab-content h3{
+    font-size: 25px;
+    color: #add136;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.tab-content p{
+    color: #606060;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/*Find section*/
+.find-section{}
+.left{
+    background: #e2f8ff;
+    padding: 3%;
+}
+.left img{
+    float: right;
+    margin-right: 25px;
+}
+.left h5{
+    color: #515151;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left p{
+    color: #515151;
+    font-size: 18px;
+    margin-bottom: 35px;
+    padding-right: 30px;
+    line-height: 1.7;
+}
+.left .btn-property{
+    background: #26a6d1;
+    padding: 12px 21px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+.left .btn-property:hover{
+    transform: translateX(10px);
+    
+}
+.right{
+    background: #f5f9eb;
+    padding: 3%;
+}
+.right img{
+    float: right;
+    margin-right: 25px;
+}
+.right h5{
+    color: #515151;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.right p{
+    color: #515151;
+    font-size: 18px;
+    margin-bottom: 35px;
+    padding-right: 40%;
+    line-height: 1.7;
+}
+.right .btn-buyer{
+    background: #add136;
+    padding: 12px 21px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+.right .btn-buyer:hover{
+    transform: translateX(10px);
+}
+
+
+/*project-section*/
+.project-section{
+    padding: 80px 0;
+}
+.project-section h5{font-size: 30px;color: #515151;font-weight: 700;margin-bottom: 20px;}
+.project-section p{
+    font-size: 18px;
+    color: #8f8f8f;
+    line-height: 1.7;
+}
+.btn-project{
+    float: right;
+    border: 1px solid #515151;
+    padding: 12px 21px;
+    color: #515151;
+    font-size: 16px;
+    transition: all .4s linear;
+}
+.btn-project:hover{
+    color: #add136;
+    background: #515151;
+}
+.gallery{
+    margin-top: 50px;
+}
+.gallery .card{
+    position: relative;
+    overflow: hidden;
+}
+.gallery .card .new{background: #add136;padding: 30px 40px 10px;position: absolute;color: #fff;top: -13px;left: -40px;transform: rotate(-45deg);}
+.gallery .card .price{
+    background: #26a6d1;
+    color: #fff;
+    padding: 7px 12px;
+    position: absolute;
+    right: 20px;
+    top: 210px;
+    border-radius: 5px;
+}
+.gallery .card-body{
+    background: #f9f9f9;
+}
+.gallery .card-body h5{
+    color: #484848;
+    font-size: 18px;
+}
+.gallery .card-body p{
+    margin-bottom: 25px;
+}
+.gallery .card-body .progress{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.gallery .card-body .progress1{}
+.gallery .card-body .progress2{
+    width: 60% !important;
+}
+.gallery .card-body .progress3{
+    width: 8%;
+}
+.gallery .card-body .progress-bar{
+    width: 10%;
+    background: #add136;
+}
+.gallery .card-body .info p{}
+.gallery .card-body .line{
+    display: block;
+    height: 1px;
+    background: #d6d6d6;
+    margin-bottom: 15px;
+}
+.btn-details{
+    float: right;
+    color: #484848;
+    position: relative;
+    margin-right: 30px;
+}
+.btn-details:hover.btn-details:after{
+    margin-left: 30px;
+}
+.btn-details:after{
+    content: '';
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #c1dc67;
+    position: absolute;
+    margin-left: 20px;
+    top: 25%;
+}
+
+/********** Review-section ***********/
+.review-section{
+    padding: 80px 0;
+    background: url(../images/community-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.review-section h2{
+    font-size: 40px;
+    color: #9ec02d;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.review-section p{
+    font-size: 18px;
+    color: #949494;
+    padding: 0 6%;
+    line-height: 1.7;
+}
+.review-box{
+    margin-top: 50px;
+}
+.review-box .card{
+    position: relative;
+    text-align: center;
+    border: none;
+}
+.review-box .card:after{
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: 17%;
+    border-right: 20px solid transparent;
+    border-left: 20px solid #fff;
+    border-top: 20px solid #fff;
+    border-bottom: 20px solid transparent;
+}
+.review-box .card-body{}
+.review-box .card-body h5{
+    color: #9ec02d;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.review-box .card-body p{
+    color: #848484;
+}
+.review-box .img-box{
+    margin-top: 50px;
+}
+.review-box .img-box img{
+    float: right;
+}
+.review-box .img-box h4{
+    color: #494949;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/******** logoSlider *********/
+.logoSlider{
+    padding: 30px 0;
+}
+
+
+/******* footer section *********/
+footer{
+    padding: 20px 0;
+    border-top: 1px solid #ededed;
+}
+footer p{
+    font-size: 14px;
+    color: #848484;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 479px) { 
+    .banner-content h1 {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+    }
+    .about h2 {
+    color: #515151;
+    font-size: 24px;
+    margin: 50px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 24%;
+    line-height: 1.4;
+    }
+    .left .btn-property {
+    background: #26a6d1;
+    padding: 12px 21px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 36px;
+    transition: all .3s ease;
+    }
+    .right .btn-buyer {
+    background: #add136;
+    padding: 12px 21px;
+    color: #fff;
+    border-radius: 24px;
+    font-size: 16px;
+    transition: all .3s ease;
+    }
+
+    .review-section h2 {
+    font-size: 34px;
+    color: #9ec02d;
+    font-weight: 700;
+    margin-bottom: 30px;
+    }
+
+
+} 
